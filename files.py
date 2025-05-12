@@ -10,4 +10,5 @@ with open(file, 'r') as temp:
     # print(data_list)             # as a string
 
 split_data = data.split()
-print(split_data)
+for item in split_data:
+    print(item)
